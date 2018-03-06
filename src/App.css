@@ -1,0 +1,16 @@
+.Grid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+  margin-left: 32%;
+  margin-right: 32%;
+  width: 20%;
+  
+}
+.Cell {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 80px;
+  border: 1px solid black;
+  font-size: 35px;
+  text-align: center;
+}
