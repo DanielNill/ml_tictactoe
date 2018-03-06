@@ -1,7 +1,6 @@
 export default class Player {
   constructor(role) {
     this.role = role;
-    this.game = 1;
     this.runningState = "off";
     this.learning = true
     this.memory = {};
